@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.App {
+  background-color: #ff6666;
+  padding: 20px;
+  color: #fff;
+}
+
+.app-title {
+  font-size: 50px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.app-description {
+  margin: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #fff;
+  max-width: 400px;
+  margin-bottom: 10px;
+}

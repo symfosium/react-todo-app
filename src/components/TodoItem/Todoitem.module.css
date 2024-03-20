@@ -1,0 +1,43 @@
+h4 {
+    margin: 0;
+}
+
+.todoItem {
+    background-color: rgba(255, 255, 255, 0.14);
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todoDescription {
+    margin: 0;
+
+}
+
+.todoControllers {
+    display: flex;
+    column-gap: 10px;
+    cursor: pointer;
+}
+
+
+.my-node-enter {
+    opacity: 0;
+}
+
+.my-node-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+
+.my-node-exit {
+    opacity: 1;
+}
+
+.my-node-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+}
+

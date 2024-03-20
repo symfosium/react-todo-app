@@ -1,0 +1,44 @@
+.todoInputBlock {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.todoLabel {
+    font-size: 23px;
+}
+
+.todoInput {
+    padding: 10px 5px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.14);
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: inherit;
+}
+
+.todoInput::placeholder {
+    color: white;
+}
+
+.todoInput:focus::placeholder {
+    opacity: 0;
+}
+
+.todoButton {
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.14);
+    color: white;
+    font-size: 18px;
+    transition: background-color .4s ease-in-out;
+}
+
+.todoButton:hover {
+    background-color: #dc4242;
+}
