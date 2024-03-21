@@ -4,16 +4,16 @@ h4 {
 
 .todoItem {
     background-color: rgba(255, 255, 255, 0.14);
-    padding: 20px 30px;
+    padding: 15px 20px;
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 20px;
 }
 
 .todoDescription {
     margin: 0;
-
 }
 
 .todoControllers {
@@ -55,11 +55,60 @@ h4 {
 }
 
 .checkBox:checked + .checkBoxLabel {
-    background-color: green;
+    background-color: #15b015;
 }
 
 .checkBox:checked + .checkBoxLabel:before {
     left: calc(100% - 32px);
+}
+
+.todoDescriptionChecked {
+    text-decoration: line-through;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.todoItemDescription {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+}
+
+.changeTodoTextInput {
+    padding: 5px;
+}
+
+.changeTodoTextBtn {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.14);
+    color: white;
+    font-size: 18px;
+    transition: background-color .4s ease-in-out;
+}
+
+.changeTodoTextInput {
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.14);
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: inherit;
+}
+
+.changeTodoTextBtn {
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.14);
+    color: white;
+    font-size: 18px;
+    transition: background-color .4s ease-in-out;
 }
 
 
