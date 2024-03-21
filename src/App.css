@@ -6,8 +6,9 @@
 
 .App {
   background-color: #ff6666;
-  padding: 20px;
+  padding: 50px;
   color: #fff;
+  border-radius: 20px;
 }
 
 .app-title {
