@@ -15,8 +15,10 @@ const TodoItem = ({todo, onDelete, id}) => {
                 <p className={styles.todoDescription}>{todo.description}</p>
             </div>
             <div className={styles.todoControllers}>
-                <FaPencilAlt />
+                <FaPencilAlt/>
                 <IoTrashBinOutline onClick={handleDelete}/>
+                <input type="checkbox" id={todo.id} className={styles.checkBox}/>
+                <label htmlFor={todo.id} className={styles.checkBoxLabel}></label>
             </div>
         </div>
     );
