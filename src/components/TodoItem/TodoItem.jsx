@@ -44,8 +44,11 @@ const TodoItem = ({todo, onDelete, id}) => {
                             onChange={handleInputChange}
 
                         />
-                        <button className={styles.changeTodoTextBtn} onClick={handleSaveClick}>Save</button>
-                        <button className={styles.changeTodoTextBtn} onClick={() => setIsEditing(false)}>Cancel</button>
+                        <div className={styles.descriptionBtns}>
+                            <button className={styles.changeTodoTextBtn} onClick={handleSaveClick}>Save</button>
+                            <button className={styles.changeTodoTextBtn} onClick={() => setIsEditing(false)}>Cancel
+                            </button>
+                        </div>
                     </>
                 ) : (
                     <>
